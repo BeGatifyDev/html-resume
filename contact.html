@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: #ffffff;
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        h1 {
+            margin-top: 20px;
+            font-size: 2.5em;
+            animation: fadeIn 2s;
+        }
+        p {
+            margin: 10px 20px;
+        }
+        img {
+            width: 150px;
+            height: auto;
+            border-radius: 50%;
+            margin: 20px auto;
+            animation: float 3s infinite ease-in-out;
+        }
+        hr {
+            border: 1px solid #4CAF50;
+            width: 80%;
+            margin: 20px auto;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        ul li {
+            margin: 5px 0;
+        }
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        a:hover {
+            background-color: #45a049;
+        }
+        .contact {
+            text-align: left;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #1e1e1e;
+            border-radius: 10px;
+            width: 80%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        .contact h1 {
+            font-size: 2em;
+            margin-bottom: 15px;
+        }
+        .contact p {
+            margin: 10px 0;
+            font-size: 1.1em;
+        }
+        .contact p strong {
+            color: #4CAF50;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>OLUWAFEMI OLUWATOBI BEST</h1>
+    <p>Front End Developer & WordPress Expert</p>
+    <img src="./resume pass.PNG" alt="Passport" />
+    <hr />
+    <h2>Education</h2>
+    <ul>
+        <li>National Open University of Nigeria, 2022 - Information Technology</li>
+        <li>Living Spring College of Technology, 2015 - Networking and System Security</li>
+        <li>Eco College of Designs & Development - Website Design, WordPress, UI/UX Design, Graphic Design, Printing Technology</li>
+    </ul>
+    <hr />
+    <h2>Recent Experience</h2>
+    <ul>
+        <li>2024 - WordPress Website Development for carealotmedical.com - Overseeing website development, hosting, and domain management.</li>
+        <li>2024 - UI/UX Design for Kandidmusic Empire - Designed UI/UX for kandidmusic.com</li>
+        <li>2023-Till Date - WordPress Website Development for aremmic.com - Overseeing website development, hosting, and domain management.</li>
+    </ul>
+    <hr />
+    <div class="contact">
+        <h1>Contact Details:</h1>
+        <p><strong>Tel:</strong> +2348164245864</p>
+        <p><strong>Email:</strong> bestreach123@gmail.com</p>
+        <p><strong>Address:</strong></p>
+        <p>No 17 Ogo Oluwa Street,<br />
+           Sawmill Ikere Ekiti,<br />
+           Nigeria</p>
+    </div>
+    <a href="./contact.html">Contact Me</a>
+</body>
+</html>
